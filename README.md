@@ -4,6 +4,30 @@ Notes for Data Science
 # Purpose
 this repository is for holding your notes
 
+
+
+
+# How to Create a Repo
+
+# Git Practice
+this is my repo for demonstrating practicing git
+## Workflow
+Go to https://github.com/new and make a new repo
+Select any options for readme, license, or gitignore and click OK.
+Go to the green "Code" button on GitHub and copy the git address that looks like git@github.com:ryanorsinger/git_practice.git
+Now, navigate on your computer to the folder you want to be the parent folder and type git clone git@github.com:ryanorsinger/git_practice.git
+You can now do more work inside of this folder...
+To "Add, commit, and push" new content
+## Create a new file or edit an existing file
+git status from your command line
+git add filename.txt where filename.txt is the file you created or edited
+git status to check to makesure that the filename is now green in your terminal
+git commit -m "this is the commit message that explains what I'm adding".
+git push origin main will upload all of your commits!
+
+
+
+
 # Notes for Week 2
 
 Window based operating system:
@@ -133,7 +157,7 @@ when we create a repository in GitHub, what about the readme, gitignore, license
    - As soon as you fix a gnarly freakin' bug. PUt your fix in the commit message
    - We might commit right when we discover a gnarly bug... commit message should be a description of the bug.
  
- 
+
 ## Recommended Workflow
 - Make a new repository every time we start a new project/module
 - More on GitHub > less, b/c you're showing your portfolio
@@ -146,3 +170,51 @@ when we create a repository in GitHub, what about the readme, gitignore, license
    - On your terminal run the following commands:
    - `git clone git@github.com:CodeupClassroom/easley-now-we-know.git`
    - you will now have a folder named the same thing as the repo
+
+
+   # More Tips and Tricks
+
+   If you get “enter your password for the ssh key” then run ssh-keygen -p -f id_rsa
+white_check_mark
+eyes
+raised_hands
+
+1:41
+ssh-keygen -p -f ~/.ssh/id_rsa
+1:43
+If you do git push anbd you get a prompt to enter your github.com username then your github.com password
+1:44
+^ only for the github username prompt f
+1:44
+git remote remove origin
+1:44
+Then go to your repository in GitHub
+1:45
+click the green :Code” button
+1:45
+and copy the SSH clone address
+1:45
+then go back to your terminal and type git remote add origin  followed by pasting the remote that looks like git@github.com:CodeupClassroom/easley-now-we-know.git that you just copied (but for your own repository, not this specific one)
+
+Ryan Orsinger (he/him)  1:52 PM
+ssh-add -K ~/.ssh/id_rsa in case you need to remove the passphrase from your ssh key
+
+
+git config --global user.name "Your Name"
+git config --global user.email you@email.com
+^^
+Make sure to put your name in the quotes and the email address associated w/ your GitHub account
+Run these commands on your terminal. (edited) 
+white_check_mark
+eyes
+raised_hands
+
+10:33
+Be sure locally on your laptop to make a directory named codeup-data-science within your home directory. This will be where you do all of your work at codeup.
+
+Faith (she, her)  10:51 AM
+git commit -m  'Commit message'
+
+Ryan Orsinger (he/him)  12:14 PM
+git config --global user.name "Your Name"
+git config --global user.email you@email.com
