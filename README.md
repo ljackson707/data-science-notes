@@ -210,3 +210,34 @@ when we create a repository in GitHub, what about the readme, gitignore, license
 
    - git config --global user.name "Your Name"
    - git config --global user.email you@email.com
+
+   
+   **# Wed 16th Notes**
+   Intro to SQL
+   - Git Push Every Day
+
+Perform database operations 
+perform CRUD
+
+SQL = Structured Querrie Language
+
+We will be using MySQL
+
+- Databases - store infromation( Sotwss text in numberers in a more optimized way than your file system)(Storage and Space)
+
+# Vocab
+
+- Relational Database Managment System (RDBMS)(SQL)
+- Database - location where the data is stored
+- Database client - How we connect to a server (Application Butter Pancake for  SQLPro)
+- Database server - a computer that runs and stores DBMS
+- DDL - 
+- DML - Data Manipulation Language Used to splice and dice data
+- Queariers - Questions that are comanded through SQL
+   - statements (Telling what we want)
+   - commands (Telling server what to do)
+
+# SQL Pro
+- You can conncet to MySQL through Command Line
+- 
+
