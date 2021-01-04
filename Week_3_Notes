@@ -1,0 +1,55 @@
+#WEEK 3 NOTES
+
+#NOW WE KNOW GAME 
+- set a timer for 60 sec
+- within that time shoutout something you know or aquired.
+"Relationships"
+
+How to colone repo 
+SELECT and FROM 
+Terminal workflow
+Creating repos
+Joins
+Defaults (Order By asc,)
+Working wiht concat
+Aggregate functions (count, min, max)
+How to use git ignore files
+
+#I think I got it but not too sure about.
+
+Creating tables in SQL
+    - will be creating tables from quarries later
+    - create temp. tables
+    - The table cration syntx and comands we see when we run  Lookat table info in sql pro or SHOW CREATE TABLE cammand.
+
+        #Synatx for table 
+        CREAT TBALE table name (column name, data type) any Modifiers.
+
+Distinct vs groupby
+    -distinct select the distinct values within a table value ie first_name.
+        
+        #Example 
+
+        USE employees
+        SELECT distinct `first_name`
+        FROM employees
+        WHERE gender in ("m");
+
+working with time in mySQL 
+Knowing when to use Where and Having 
+Formatting quarries 
+Use group by when useing count
+Select statements in select statements
+    - We can not use multiple columes when using select and groupby because the group by function is working on a single column and is too much infromation to draw multiple columns.
+    - whe using group by we are changing and redefining our level of observation. (Changin the definition of what we are observing)
+
+        #Example
+
+        USE employees
+        SELECT (first_name), count(*)
+        FROM employees
+        group by first_name; #Could be more than one employees with that first name
+
+    - Use count to show the number of duplicates.
+    - Group by allows us to use aggregate finctions on each group. Dont need group by to run agg functions on a list. 
+    - Group by allows us to narrow down our agg functions on definde variables.
