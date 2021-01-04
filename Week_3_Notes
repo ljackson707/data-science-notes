@@ -3,7 +3,6 @@
 #NOW WE KNOW GAME 
 - set a timer for 60 sec
 - within that time shoutout something you know or aquired.
-"Relationships"
 
 How to colone repo 
 SELECT and FROM 
@@ -53,3 +52,67 @@ Select statements in select statements
     - Use count to show the number of duplicates.
     - Group by allows us to use aggregate finctions on each group. Dont need group by to run agg functions on a list. 
     - Group by allows us to narrow down our agg functions on definde variables.
+
+#Relationships
+
+#Indexes (Indices)
+- optimize queries and ensure integrity of data
+- Primary keys
+- Unique  indexes 
+    - are not limited to 1 per table
+    - unique indexes are use to make sure there are no duplicates within a column.
+- Alter statement
+    - used to update the table
+
+#Foreign Keys
+    - another table's primary key
+
+#Multiple Column Indexes
+
+#Joins
+- inner join (join)
+- left join 
+- right join 
+    
+    #Example of join 
+
+    SELECT 
+    FROM table_a
+    JOIN table_b AS B ON A.id = B.fk_id;
+
+    #Show all the titles that each employee has had over time.
+    
+    Select * 
+    From employees
+    JOIN titles ON employees.emp_no = titles.emp_no;
+
+    #How many titles has each employee had?
+
+    Select employees.emp_no, count(*)
+    From employees
+    JOIN titles ON employees.emp_no = titles.emp_no
+    group by emp_no;
+
+    #IF we have a foreign key and primary key with identical name we can do the following.
+
+    Select *
+    From employees
+    JOIN titles using(emp_no);
+    
+    #This way give you two emp_no columns.
+    
+    Select *
+    From employees
+    join titles ON employees.emp_no = titles.emp_no;
+
+#Relationship types 
+- One to Many (many diffrent rows associated with a single row on another)
+    -(one employee could have many titles)(foreign key points to the one table)
+
+- Many to Many (many different rows on a table related to many diffrent rows on another table)
+    -(one employee could belong to multiple departments (over time) )
+        - when we have a table with multple forigne keys it is likely to be a many to many table
+        - can A have more than one B?
+        
+- One to One 
+    -(relationship between a usernameand and a password)(expressed a diffrent columns on the same table)
