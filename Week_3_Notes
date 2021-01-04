@@ -70,7 +70,7 @@ Select statements in select statements
 #Multiple Column Indexes
 
 #Joins
-- inner join (join)
+- inner join (join) 
 - left join 
 - right join 
     
@@ -117,3 +117,55 @@ Select statements in select statements
 - One to One 
     -(relationship between a usernameand and a password)(expressed a diffrent columns on the same table)
 
+##More Joins
+
+Types of joins
+
+    #Inner join is a logical AND statment. Not tolerating any nulls.
+    
+    Select *
+    From users
+    join roles on users.role_id = role_id;
+
+    #Left joins (Tolerates nulls) Takes from the left or the Users side.(All of records you star with. (gives all users)
+    
+    Select *
+    From users 
+    left join roles on users.role_id = role_id;
+
+
+    #Right joins (keeps any records from table B that have any nulls) (gives all roles)
+    
+    Select *
+    From users 
+    Right join roles on role_id = users.role_id;
+
+    #Multiple Joins (Write a quarry that shows the current salry for all current employees)
+
+    Use employees;
+
+    Select *
+    From employees
+    Join salaries On salaries.emp_no = employees.emp_no
+    Where salaries.to_date > curdate();
+
+
+    Select *
+    From employees
+    join dept_emp on dept_emp.emp_no = employees.emp_no
+    join departments on dept_emp.dept_no = departments.dept_no
+    Where dept_emp.to_date > curdate();
+
+#The number of joins is the number of tables * 1
+ #One to many has 2 tables meqns 2 joins 
+   #Many to many has 3 tables meaing 2 joins
+
+    #Write a quarry that returns the employee name, department name, and their current salary.
+
+    Select first_name, last_name, salary, departments.dept_name, dept_emp.to_date as "Depatment_to_date", salaries.to_date as "Salary_to_date" 
+    From employees
+    join dept_emp on dept_emp.emp_no = employees.emp_no
+    join departments on dept_emp.dept_no = departments.dept_no
+    join salaries on salaries.emp_no = employees.emp_no
+    Where dept_emp.to_date > curdate()
+    AND salaries.to_date > curdate();   
