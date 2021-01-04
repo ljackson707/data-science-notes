@@ -116,3 +116,4 @@ Select statements in select statements
         
 - One to One 
     -(relationship between a usernameand and a password)(expressed a diffrent columns on the same table)
+
