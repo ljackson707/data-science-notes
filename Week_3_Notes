@@ -212,3 +212,80 @@ where salary in (
 )
 And salaries.to_date > curdate()
 And dept_emp.to_date > curdate();
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#Sub Querys
+
+# If we have 3 specific numbers, we can use OR 
+
+Use employees;
+
+select *
+from employees
+where emp_no = ()
+or = ()
+or = ()
+or = ();
+
+
+#IF we have a list of specific numbers, we can use IN ()
+
+select *
+from employees
+where emp_no in (select 
+		column_a
+		from Table_b);
+		
+# Joins allowed uis to stich together tables based on keys...
+# Joins are darn fast 
+Select *
+from employees
+where emp_no in (
+		select emp_no
+		from dept_manager
+		where to_date > curdate()
+)
+AND gender = "f";
+
+#Also 
+
+Select *
+from employees
+where emp_no > (
+		select emp_no 
+		From dept_manager
+		where to_date > curdate()
+);
+
+#opperator can change (Not IN, =, >, <)
+Select *
+from employees
+where emp_no Not In (
+		select emp_no 
+		From dept_manager
+		where to_date > curdate()
+);
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ #6) How many current salaries are within 1 standard deviation of the current highest salary? (Hint: you can use a built in function to calculate the standard deviation.) 
+ What percentage of all salaries is this?
+ 
+select
+ (Select count(salary)
+ from salaries 
+ where salary > (
+ 		Select 
+ 		max(salary) - STDDEV(salary)
+ 		from salaries
+ 	    Where to_date > curdate())
+ AND to_date > curdate())
+ /
+ (select
+ count(salary)
+ from salaries
+ Where to_date > curdate())
+ *100;
+ 
+#0.0346 
+#Percentage of all current salaries that are within one standard deviation of the current max salary" 
