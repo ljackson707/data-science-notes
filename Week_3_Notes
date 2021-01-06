@@ -1,5 +1,7 @@
 #WEEK 3 NOTES
 
+#MON
+
 #NOW WE KNOW GAME 
 - set a timer for 60 sec
 - within that time shoutout something you know or aquired.
@@ -214,6 +216,7 @@ And salaries.to_date > curdate()
 And dept_emp.to_date > curdate();
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#TUE#
 
 #Sub Querys
 
@@ -289,3 +292,15 @@ select
  
 #0.0346 
 #Percentage of all current salaries that are within one standard deviation of the current max salary" 
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#WED (Numbers without context are meaningless)
+
+#Temporary Tables 
+- CREATE TEMPORARY TABLE table_name(...);
+
+(6-7 Tuesday nights (Sara Pena) (Mentor/Toutor)(on Zoom)
+Zoom Link = https://us02web.zoom.us/j/83760881630?pwd=U0ZNM3VXU2lGYmdBSml2eVBnZWw4QT09) 
+
+-
