@@ -1,0 +1,126 @@
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#MON (Python Overview and Intro)
+
+#What is a program?
+- Input (data set)
+- Output (what we found)
+- Math 
+- Conditional Execution
+- Repetition
+
+#We will be building data scultping programs though python 
+
+#Programing is to desin the progrmatical steps to produce the structure.
+- Promagms are the maniifstation of human will and intent.
+
+#Natural Language
+- natural human spoken language
+- oppisite is fromal languge(logic gates, truth tables, math, and programing languages)
+
+#Coding
+- converting natural language instructions into a coding language.
+- Progaming happens in the mind and Coding happens with a keyboard.
+- Code only when you already have the progam in your mind.
+
+#How to create programs
+- Figure out what the problem is asking in natual language
+- design the program and sequence of steps in your mind
+- outline the sequence of steps necessary to solve the problem in natual language
+- convert your natural language 'program' into the fromal language of code, the programing language.
+
+Python libraries:
+
+- matplotlib
+- numpy
+- pandas
+- seaborn
+- sklearn
+- scipy
+- stats
+
+Python on its own on the terminal enters a REPL
+ipython on its own on the terminal enters a REPL w/ more bells and whistels
+
+EOF end of file
+
+#How to make a python file
+- code . 
+
+#How to run a .py file from the terminal
+python (file_name.py)
+
+#Jupyter Notebooks 
+- browser based enviroment
+- jupyter notbook notebook_name.ipynb to run a specific notebook
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TUE (Data Types, Operators, and Variables)
+
+#Examples
+favorite_number = 42
+n = favorite_number + 7
+print(n)
+
+x = 1
+print(x)
+x = x + 1 
+print(x)
+x = x * 3 + x
+print(x)
+
+#formating
+
+name = 'World'
+
+'Hello %s!' % name
+print (name)
+
+f'Hello, {name}!'
+print(name)
+
+'Hello, {}!'.format(name)
+print (name)
+
+s = ' Hello, Codeup! '
+print(s.lower())
+
+s = ' Hello, Codeup! '
+print (s.upper())
+
+s = ' Hello, Codeup! '
+print (s.strip())
+
+s = ' Hello, Codeup! '
+print (s.isdigit())
+
+'123'.isdigit()
+
+s = ' Hello, Codeup! '
+print(s.strip().split(', '))
+
+print(', '.join(['one', 'two', 'three']))
+
+#lists 
+x = [1,2,3]
+print(x)
+
+x = ['one', 'two', 'three']
+print(x)
+
+x = [[1,2,3], [4,5,6], [7,8,9]]
+print(x)
+
+#List Comprehensions
+print([n for n in range(10)])
+
+print([n * 2 for n in range(10)])
+
+print([n * 2 for n in range(10) if n%2==0])
+
+#List Operations
+numbers = [1, 2, 3]
+numbers.append(4)
+print(numbers)
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+WED
