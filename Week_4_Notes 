@@ -56,6 +56,35 @@ python (file_name.py)
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 TUE (Data Types, Operators, and Variables)
 
+Operation 	Operator 	Example
+Addition 	    + 	     4 + 4
+Subtraction 	- 	     9 - 1
+Multiplication 	* 	     4 * 2
+Division 	    / 	    16 / 2
+Exponentiation 	** 	    2 ** 3
+
+Operator 	Description 	      Example
+  == 	     Equal to 	          1 == 1
+  != 	    Not equal to 	      1 != 0
+  > 	    Greater than 	      1 > 0
+  < 	     Less than 	          0 < 1
+  >= 	Greater than or equal to  1 >= 1
+  <= 	 Less than or equal to 	  1 <= 1
+
+
+#    .lower and .upper: convert the string to all lower or upper case
+#    .strip: remove any leading and trailing whitespace from the string
+#    .isdigit: test whether or not the string is a number
+#    .split: convert a string to a list
+#    .join: convert a list to a string
+
+#    int: whole, or counting numbers
+#    float: decimal numbers
+#    list: an ordered sequence of objects
+#    dict: a collection of values that have names
+#    NoneType: a special value that indicates absence of a value
+
+
 #Examples
 favorite_number = 42
 n = favorite_number + 7
@@ -122,5 +151,12 @@ numbers = [1, 2, 3]
 numbers.append(4)
 print(numbers)
 
+
+
+
+
+
+
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 WED
+
