@@ -151,12 +151,83 @@ numbers = [1, 2, 3]
 numbers.append(4)
 print(numbers)
 
-
-
-
-
-
-
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-WED
+WED (Control Structures)
+- way too change or control the flow of the program. (not just top to bottom)
 
+#Conditionals 
+- if this then that (Booleans True, False)
+
+#Example
+
+i_like_coffee = True
+
+if i_like_coffee: #Then 
+    print('I like coffee!') # will print if true 
+    print('Coffee is the best!') # will print if true also
+  
+# if false the Conditional does not run 
+
+# This example accounts for False
+
+it_is_raining = False
+
+if it_is_raining:
+    print('Better bring an umbrella!')
+else:
+    print('Looks like a nice, sunny day!')
+
+# Example of elif
+
+coffee_preference = 'medium'
+
+if coffee_preference == 'dark':
+    print('I love a good dark roast!')
+elif coffee_preference == 'medium':
+    print('Middle of the road, huh?')
+elif coffee_preference == 'light':
+    print('Light roast has the most caffeine!')
+else:
+    print('How about some tea then?')
+
+
+#Loops 
+- allow us to run program forever or as long as the program is running
+
+#Loops 
+- For Loop runs a block of code a set number of times
+
+#Example of For Loop
+
+for number in range(1, 4):
+    print(number)
+
+
+#While Loop 
+- runs a block of code until a condition is met could be infinite
+
+#Example of While Loop
+
+i = 5
+while i <= 10:
+    print(i)
+    i += 1    # This updates counter( if we dont have this it will run forever)
+
+#Continue 
+- will skip to next intteration of loop
+
+for n in range(10):
+    if n % 2 == 0:
+        continue
+    print('Here is an odd number: {}'.format(n))
+
+
+
+
+#Break 
+- stops the loop entirly
+
+for n in range(100_000):
+    print(n)
+    if n > 10:
+        break
