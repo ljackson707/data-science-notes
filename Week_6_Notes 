@@ -24,3 +24,40 @@ Other Notes
 Looking ahead
 
 Next week: Storytelling & Tableau. 
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#Tuesday
+# 2021-01-26
+
+## Thought for the Day
+"Civilization advances by extending the number of important operations which we can perform without thinking about them."
+- Alfred North Whitehead
+
+## Announcements
+- Python assessments returned. Reach out if you have any Python questions.
+    - Print is liar. always return values from functions. what's the return value of print? None.
+    - Problems w/ lists of dictionaries as inputs - the "trick" is to make a solve for a single dictionary, then loop.
+    - Python is not the whole story of Data Science
+    - Base Python is not the measure of your entire skillset.
+    - Pandas makes stuff easier.
+
+- Tableau Lunch n' Learn today w/ Sean Oslin
+
+- Placement stats:
+    - Curie to 94% and over $1M collectively in salaries for those 15 students. $68,132 average salary
+    - Darden cohort, 3 placed in 2 weeks since graduation
+
+- First week of March, Stephen Salas from Placement will be scheduling 1 x 1s to get to know you: 
+    - do you like working at big/small companies?
+    - are you OK w/ relocating? Which areas are you comfy with?
+    - anywhere you KNOW you want to work
+    - any industry you want to focus on
+
+
+## Agenda
+- Advanced dataframes lesson
+- Advanced dataframes exercise
+- Advanced dataframes review
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#Wednesday
