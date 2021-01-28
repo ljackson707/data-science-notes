@@ -1,0 +1,81 @@
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#Monday
+#2021-01-25
+
+Thought for the Day
+
+"With ordinary talent and extraordinary perseverance, all things are attainable" -Thomas Fowell Buxton
+
+Agenda
+
+Today: Intro to DataFrames, class ends @4:00
+https://github.com/CodeupClassroom/easley-data-science-libraries/blob/main/pandas_dataframes.ipynb
+
+Tuesday: Advanced DataFrames, LnL with Sean Oslin (Bayes) - Tableau Showcase (I highly recommend attending!)
+Wednesday: Seaborn, class ends @12:30, Ryan's Birthday!
+Thursday: Seaborn wrap-up, Spreadsheets, Lunch @12:00
+Friday: No class (Staff Development Day)
+
+Other Notes
+
+- LOVE the way you all are working together, learning, and problem solving! 
+- When you need an instructor, we are here for you. Whether it's directly related to exercises or not, USE the time during the class day to seek help. College profs usually have a couple hours a week of office hours. You have access to instructors ~4 hours a day when you are working on exercises. That's by design. So, don't wait until 4:58 to ask questions and if you need a 1:1, you will have more luck catching us during the day than trying to schedule time after hours. 
+
+Looking ahead
+
+Next week: Storytelling & Tableau. 
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#Tuesday
+# 2021-01-26
+
+## Thought for the Day
+"Civilization advances by extending the number of important operations which we can perform without thinking about them."
+- Alfred North Whitehead
+
+## Announcements
+- Python assessments returned. Reach out if you have any Python questions.
+    - Print is liar. always return values from functions. what's the return value of print? None.
+    - Problems w/ lists of dictionaries as inputs - the "trick" is to make a solve for a single dictionary, then loop.
+    - Python is not the whole story of Data Science
+    - Base Python is not the measure of your entire skillset.
+    - Pandas makes stuff easier.
+
+- Tableau Lunch n' Learn today w/ Sean Oslin
+
+- Placement stats:
+    - Curie to 94% and over $1M collectively in salaries for those 15 students. $68,132 average salary
+    - Darden cohort, 3 placed in 2 weeks since graduation
+
+- First week of March, Stephen Salas from Placement will be scheduling 1 x 1s to get to know you: 
+    - do you like working at big/small companies?
+    - are you OK w/ relocating? Which areas are you comfy with?
+    - anywhere you KNOW you want to work
+    - any industry you want to focus on
+
+
+## Agenda
+- Advanced dataframes lesson
+- Advanced dataframes exercise
+- Advanced dataframes review
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#Wednesday
+- Start Seaborn 
+
+###Agenda:
+Exercise Time - Finish Advanced DF Exercises
+Advanced DataFrames Exercises Walkthrough
+Seaborn Lesson
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#Thursday
+Agenda For 1/28/2021:
+Time to work on Seaborn exercises
+Seaborn exercise walkthrough
+Spreadsheet lesson/exercise time
+Friday 1/29
+No class this Friday
+Monday Feb 01
+Start of next module - Storytelling/Tableau
