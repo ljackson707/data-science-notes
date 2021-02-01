@@ -1,0 +1,54 @@
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#Monday
+
+## Some Story Telling Notes
+    - A presentation with the support of a tool, such as Powerpoint, Prezi, Keynote, Tableau.
+    - A stand-alone report created using a tool, such as Jupyter notebook, Powerpoint, Tableau, Keynote.
+    - A dashboard created using a tool such as Tableau, Qlik, Plot.ly, Bokeh, Looker, Chart.io, and others.
+
+    The 4 steps to making an effective chart that we will discuss in detail throughout the next lessons are:
+
+    1) Understand
+    2) Create
+    3) Refine
+    4) Present
+
+### Things to think about when assessing an effectiveness of a chart include the following:
+
+    Design Execution ⇒
+
+How well is the chart constructed?
+Contextual Awareness ⇒
+What am I trying to say? To whom? Where?
+High Design Execution +
+High Contextual Awareness ⇒ Good Chart. 
+
+# Types of visual communication
+
+    Idea Illustration (Infographics)
+    Everyday Visualization (Reports, Data Journalism)
+    Visual Discovery (Interactive Dashboards, Exploratory Analysis)
+    Idea Generation (Whiteboarding, Brainstorming)
+
+## Classes of Visualizations
+
+    Plots: points are marked on a coordinate system, continuous axes.
+    Graphs: a diagram of a mathematical function, but can also be used (loosely) about a diagram of statistical data.
+    Charts: graphic representation of data, especially when other shapes and symbols (e.g. bars) are used to represent data.
+    Text: creating imagery through the written word.
+    Speech: creating imagery through the spoken word.
+
+### Use Cases
+
+     - Support for or argument against a direction the company could go.
+     - Should we develop this new product?
+     - Should we add this new feature?
+     - What will the impact be if we remove this offering?
+     - When should we hire more staff?
+     - What is the impact of a new competitor?
+     - What can we expect if we implement this new process?
+     - What are our customers saying about it?
+     - What does our revenue forecast look like?
+     - Data Journalism: politics, education, crime, etc.
+     - Sports analysis: how should we defend agains this team?
+     - Customer segmentation
