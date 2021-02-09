@@ -58,8 +58,25 @@ Consider x = np.array([1, 2, 3, 4, 5, 6, 7, 8]).
     
     np.quantile(x, 0.75)
 
-
-
-
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #Tuesday 
+# 2021-02-09
+
+## Thought for the Day
+“Statistics and numbers are no good unless you have good people to analyse and then interpret their meaning and importance.” - Brendan Rodgers, Northern Irish professional football manager and former player who is the manager of Premier League club Leicester City
+
+## Morning Tune: Mose Allison - Local Color (1957)
+
+## Announcements
+- Lunch and Learn today w/ Beth Thompson
+
+- Storytelling Projects are in the books and are being processed and graded so that we can have your progress reports out as soon as possible; great work again to everyone!
+
+
+## Agenda
+
+1. Simulations Exercise Work
+
+2. Simulations Exercise Review
+
+3. Probability Distributions Lesson
