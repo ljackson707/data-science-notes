@@ -94,3 +94,58 @@ End at 12:30 today
 Start with Hypothesis testing on Thursday
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#Thursday
+
+
+
+
+
+#Notes
+
+#Null Hypothesis 	H0
+	The "default" hypothesis; usually no change, no effect, etc
+
+#Alternative Hypothesis 	H1 or Ha
+	
+#Significance Level, False Positive Rate 	α
+	P(FP) = P(Type I Error)
+
+#Statistical Power 	1−β
+	P(Reject H0 when H0 is false)
+
+#False Negative Rate 	β
+	P(FN) = P(Type II Error)
+
+#p-value 	p
+	P(We observed this result due to chance | H0 is true)
+
+
+False positves and negatives 
+
+Boy who cried wolf hypo testing 
+- boy cried wolf (making a hypo)
+- villagers belive it 
+- but its not the case
+= False alarm (Type 1 error) Check engine light iis on but everthing is okay
+
+- boy cries wolf and there is a wolf 
+- villagers disbelive the hypo 
+- wolf was real
+- False negative(Type 2 error) or a "Miss" 
+(Check engine light stays offf but there is a problem)
+
+
+Lower Alpha = lower tolerance for getting the results we get from chance/randoms
+a = 1 - .999 = .001 (.001 percent chance of randomness)
+
+
+#P-value 
+if p is lower than Alpha we "reject the null hypo"
+
+if p is higher we "fail to reject the null hypo"
+
+# Null hypo is Null diff, effect or relationship
+# Alt hypo, there is an effect
+
+#One tail specific diff#
+#Two tail is any diff#
