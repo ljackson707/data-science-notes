@@ -149,3 +149,44 @@ if p is higher we "fail to reject the null hypo"
 
 #One tail specific diff#
 #Two tail is any diff#
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#For Test 
+
+
+import pandas as pd
+import numpy as np
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+from math import sqrt
+from scipy import stats
+
+np.random.seed(123)
+
+from pydataset import data
+
+from env import host, user, password
+
+from wrangle_telco import wrangle_telco
+from explore import correlation_exploration
+
+## My Correlation Function
+
+Here you can see the guts of my function correlation_exploration that I created and imported to make this processes faster. I got tired of writing the same code over and over.
+
+def correlation_exploration(df, x_string, y_string):
+    '''
+    This nifty function takes in a df, a string for x variable,
+    and a string for y variable and displays their correlation.
+    '''
+    r, p = stats.pearsonr(df[x_string], df[y_string])
+    df.plot.scatter(x_string, y_string)
+    plt.title(f"{x_string}'s Relationship with {y_string}")
+    print(f'The p-value is: {p}. There is {round(p,3)}% chance that we see these results by chance.')
+    print(f'r = {round(r, 2)}')
+    plt.show()
+
+
+
