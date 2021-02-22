@@ -1,0 +1,48 @@
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Monday 
+# 2021-02-22
+
+## Thought for the Day
+"Nobody knows everything. Everybody knows everything. And together, we can do anything!"
+- Katy Salts
+
+## Announcements
+- Welcome back! Hope everybody is safe, operational, and stable!
+- Starting Classification today!
+- Lunch and Learn w/ Sean Oslin tomorrow. 
+
+
+## Agenda
+1. Welcome Back!
+2. Stats Quiz
+3. Introducing Classification ML!
+
+
+## Notes 
+
+Questions that Data Science Methods Can Answer
+
+    Is this new observation A or B (or C, D, or E) (Classification)
+    How Many or How Much of something (Regression)
+    What groupings exist in the data already (Clustering)
+    What should we expect to happen next? (Time Series Analysis)
+    Is this weird? (Anomaly Detection)
+
+Main Ideas
+
+    With classification, we use labeled data to train algorithms to classify future data points.
+    The training data allows us to train an algorithm to produce a decision rule
+    Using a boundary between points or a distance between points, we classify new datapoints into A or B (or C or D or E)
+
+Vocab
+
+    Classifier: An algorithm that maps the input data to a specific category.
+
+    Classification Model: A series of steps that takes the patterns of input variables, generalizes those patterns, and applies them to new data in order to predict the class.
+
+    Feature: A feature, aka input/independent variable, is an individual measurable property of a phenomenon being observed.
+
+    Binary Classification: Classification with two possible outcomes, e.g. pass/fail.
+
+    Multiclass Classification: Classification with more than two classes, where each sample is assigned to one and only one target label, e.g. Grade levels of students in school (1st-12th).
+
