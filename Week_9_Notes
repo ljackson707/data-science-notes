@@ -87,3 +87,31 @@ Explore lesson
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #Friday
 02/26/2021
+
+#Notes
+Common Evaluation Metrics
+
+Now that we have introduced the idea of a confusion matrix, we can discuss some metrics that are derived from it.
+Accuracy
+
+# Accuracy is the number of times we predicted correctly divided by the total number of observations. Put another way:
+TP + TNTP + TN + FP + FN
+
+In our example above, this would be
+3+23+2+1+2=58=0.625
+
+So our model's overall accuracy is 62.5%.
+
+Accuracy is a good, easy to understand metric, but can fail to capture the whole picture when the classes in the original dataset are not evenly distributed.
+
+# Precision is the percentage of positive predictions that we made that are correct. Precision tells us how good our model's positive predictions are, and does not take into account false negatives or true negatives. More formally:
+TPTP + FP
+
+In our example:
+33+1=0.75
+
+That is, 75% of the time that we predicted someone likes coffee, we were right.
+
+We might choose to optimize for precision when the cost of acting on a positive prediction is high. With precision as a metric, false negatives are "free", but false positives are costly. For example we might optimize for precision when predicting whether or not an email message is spam, as it is better to send a spam message to a user's inbox than it is to send a real message to the spam folder.
+
+# 
