@@ -114,4 +114,25 @@ That is, 75% of the time that we predicted someone likes coffee, we were right.
 
 We might choose to optimize for precision when the cost of acting on a positive prediction is high. With precision as a metric, false negatives are "free", but false positives are costly. For example we might optimize for precision when predicting whether or not an email message is spam, as it is better to send a spam message to a user's inbox than it is to send a real message to the spam folder.
 
-# 
+# Recall
+
+Recall is the percentage of positive cases that we accurately predicted. Recall tells us how well our model does at "capturing" the actually positve cases. Recall does not take into account false positives or True negatives.
+TPTP+FN
+
+In our example:
+33+2=0.6
+
+We predicted 60% of the people that like coffee correctly.
+
+We might choose to optimize for recall when the cost of missing out on a positive case is high, or when it is better to act on a predicted positive than not to. With recall as a metric, false positives are "free", but false negatives are costly. For example, we might optimize for recall when trying to flag fradulent bank transactions, as it is better to flag is non-fraudulent transaction for review than it is to miss out on an actually fraudulent transaction.
+
+### Other Metrics ###
+
+While the metrics above are some of the most common, they are not by far an exhaustive list. Here is an overview of several other common metrics:
+
+    Misclassification Rate: 1 - accuracy; how often does the model get it wrong?
+    Sensitivity: aka True Positive Rate; how good is our model when the actual value is positive? recall for the positive class
+    Specificity: How good is our model when the actual value is negative? Recall for the negative class
+    False positive rate: How likely is it we get a false positive when the actual value is negative?
+    F1 Score: the harmonic mean of precision and recall
+    Area Under ROC Curve: A way to measure overall model performance for models that predict not just a class, but a probability as well.
