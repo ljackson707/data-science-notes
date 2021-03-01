@@ -4,3 +4,21 @@ Agenda for today:
 Exercise time for Evaluation
 Walkthrough
 Modeling!!
+
+## Notes 
+- stratfy on the variable you want to predict (sklearn(t,v,test)
+
+- x_train = all vatiables 
+- y_train = target variable (thing we want to predict)
+
+- To predict proablity use 
+- clf.predict_praba(x_train)
+
+- evalute the model by doing 
+- (train.smoker == train.baseline).mean()
+
+- make sure after you make a model on internal data, train it with outside data.
+
+- be sure to set max_depth = 3 so you dont overfit
+
+- try to make train accuracy and validate acuarcy around the same
