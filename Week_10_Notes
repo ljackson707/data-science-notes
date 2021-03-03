@@ -44,3 +44,20 @@ and then avg those sample averages (only if the sampkle size is the same)
 Dependent on the central limit therom
 
 ### The more samples you have the closer you will get to the population mean 
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Wendsday
+
+## Notes
+What is KNN?
+
+    Supervised Algorithm
+
+    Makes predictions based on how close a new data point is to known data points.
+
+    Considered a lazy algorithm in that it does not attempt to construct a general internal model, but simply stores instances of the training data. Classification is computed from a simple majority vote of the k nearest neighbours of each point.
+
+    Predictions are made for a new data point by searching through the entire training set for the K most similar instances (the neighbors) and summarizing the output variable for those K instances. For regression problems, this might be the mean output variable. For classification problems this might be the mode (or most common) class value.
+
+    It is important to define a metric to measure how similar data instances are. Euclidean distance can be used if attributes are all on the same scale (or you convert them to the same scale).
+
