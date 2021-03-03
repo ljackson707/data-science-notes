@@ -1,7 +1,7 @@
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#Monday
+# Monday
 Agenda for today:
-Exercise time for Evaluation
+Exercise time for cd ../Evaluation
 Walkthrough
 Modeling!!
 
@@ -22,3 +22,25 @@ Modeling!!
 - be sure to set max_depth = 3 so you dont overfit
 
 - try to make train accuracy and validate acuarcy around the same
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Tuesday 
+
+## Notes 
+Random Forest is a type of Ensemble Machine Learning algo called Bootsrap Aggregation of bagging
+
+model type= Random Forest
+Random Forest is a kind of Ensemble ML application 
+Any  time we combine multiple algos together == Ensemble
+
+short version = we make a whole bunch of treees and then average the predictions
+
+If we have a gigantic population of observations it may be time/cost
+prohibative to meausre every one of those observations.
+
+Bootstraping = taking a bunch of smaples, then averageing the mean for each samply, 
+and then avg those sample averages (only if the sampkle size is the same)
+
+Dependent on the central limit therom
+
+### The more samples you have the closer you will get to the population mean 
