@@ -61,3 +61,59 @@ What is KNN?
 
     It is important to define a metric to measure how similar data instances are. Euclidean distance can be used if attributes are all on the same scale (or you convert them to the same scale).
 
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Thursday
+“Matrices act. They don't just sit there.”
+
+― Gilbert Strang
+
+Agenda 03/04:
+KNN Exercise Review
+Logistic Regression Lesson
+Logistic Regression Exercise
+Logistic Regression Review
+
+## Notes
+
+What is Logistic Regression?
+
+    Technically a regression algorithm (goal is to find the values for the coefficients that weight each input variable)
+
+    Used for predicting discrete outcomes (binomial and multinomial)
+
+    Because the prediction for the output is transformed using the logistic function, a non-linear function, it is a classification algorithm.
+
+    The output is a value between 0 and 1 that represents the probability of one class over the other.
+
+    Like linear regression, logistic regression works better when you remove attributes that are either unrelated to the output variable or correlated to other attributes.
+
+Pros
+
+    High interpretabability. It's explainable to others, i.e. it's useful for understanding the influence of several independent variables on a single outcome variable.
+
+    We can choose to ‘snap’ predictions to 0 and 1 via a rule (such as if < .5, 0 else 1) OR we can choose to use the output as is, which is a probability of being class 1.
+
+    It’s a fast model and is a good place to start with a benchmark for comparing with other classification algorithms.
+
+    Very efficient and does not require many computational resources. Runs fast.
+
+    Outputs clear predicted probabilities.
+
+Cons
+
+    Assumes all predictors are independent of each other.
+
+    Missing values must be dealt with prior to fitting the model.
+
+    We can’t solve non-linear problems with logistic regression since it’s decision surface is linear.
+
+    Not always as accurate as other classification algorithms.
+
+- (c value) is inverse of regularzation. the higher the c value the closer you get to points.
+= the lower the c the higher the regualrzation.
+- c of zero will exactly match your baseline proformance
+- higher the c value the more overfit
+L1 = lasso 
+L2 = ridge
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Friday
