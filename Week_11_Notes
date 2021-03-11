@@ -29,10 +29,27 @@ Present Telco Churn project
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Thursday
+# 2021-03-10
 
+## Thought for the Day
+"Good design is writing without words."
+- Fred Lambuth
 
-
-
+# Notes 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Confusion matrix work
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+y = [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+y_pred = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+baseline_prediction = 0
+(A) True Positives: 0
+(B) False Positive: 0
+(C) False Negative: 3
+(D) True Negatives: 8
+Accuracy: (TP + TN) / 11 = 8/11
+Precision: TP / TP + FP = 0 = undefined
+Sensitivity/Recall:  TP / (TP + FN) = 0/3
+specificity: TN / (TN + FP) = 8 / (8) = 1.0
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Friday
