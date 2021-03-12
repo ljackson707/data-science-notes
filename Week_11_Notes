@@ -1,4 +1,4 @@
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+d #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Monday
 
 Work on Telco Churn project
@@ -53,3 +53,11 @@ specificity: TN / (TN + FP) = 8 / (8) = 1.0
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Friday
+
+## Thought of the day:
+"There is no such thing as a failed experiment, only experiments with unexpected outcomes" - Buckminster Fuller
+
+# Notes 
+
+1.5 * IQR + Q3 || Q1 - 1.5*IQR
+That’s the typical outlier cutoff^
