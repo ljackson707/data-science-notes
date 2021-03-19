@@ -117,3 +117,43 @@ L1 = lasso
 L2 = ridge
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Friday
+
+"You can trust the next chapter of your life. Remember, you're the author." Brad Turnbull?
+
+Agenda March 5, 2021:
+
+- Project Kickoff
+- Bonus Lesson: "How to explore, in 5 functions."
+- Next week:
+Monday: Work on classification projects
+Tuesday: Deliver classification presentations in afternoon.
+Wednesday: Classification quiz, kick off regression
+Thursday & Friday: Continue regression lessons.
+
+## Notes
+
+Deliverables for project
+
+You are expected to deliver the following:
+
+    a Jupyter Notebook Report showing process and analysis with the goal of finding drivers for customer churn. This notebook should be commented and documented well enough to be read like a report or walked through as a presentation.
+
+    a README.md file containing the project description with goals, a data dictionary, project planning (lay out your process through the data science pipeline), instructions or an explanation of how someone else can recreate your project and findings (What would someone need to be able to recreate your project on their own?), key findings, recommendations, and takeaways from your project.
+        
+        - List your hypothesises 
+        - Three sentences of what you found.
+        - Any recomendations from findings 
+        
+
+    a CSV file with customer_id, probability of churn, and prediction of churn. (1=churn, 0=not_churn)
+       
+        - Take final (Test Model) then use to_csv function to covnert output to CSV
+        -
+    
+
+    individual modules, .py files, that hold your functions to acquire and prepare your data.
+        
+        - Create helper files (aquire, prepare, evaluate)
+
+
+    a notebook walkthrough presentation with a high-level overview of your project (5 minutes max). You should be prepared to answer follow-up questions about your code, process, tests, model, and findings.
