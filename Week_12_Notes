@@ -1,0 +1,79 @@
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Monday
+"There is no such thing as a failed experiment, only experiments with unexpected outcomes" - Buckminster Fuller
+
+# Notes 
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Tuesday
+
+# Notes 
+
+-Use mean to determin base line fro regression models 
+
+-Use mode for non regression models to determine baseline model
+
+Residual - error (predicted minus actual)
+SSE (sum of squared error)
+MSE (mean squared error)
+RMSE (root mean squared error)
+Mean Absolute error
+
+-how to now which to use?
+
+- use RMSE and MAE for zillow project
+
+-ESS (Explained Sum of Sqares)
+- TSS (Total sim of sqared error)
+
+1)cal r2 
+2)look at pvalue (fstat)
+3)do you trusnt nunber?
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Wednesday 
+3/17/21
+Thought for the day:
+    
+    “I was too focused on perfection when I started in data. 
+    If I had a time machine, I’d say to 2013 aspiring data scientist Eric 
+    “you’ve got to be good enough, not perfect.” Business decisions are often 
+    directional. Here are 5 other things I’d say to myself:
+
+1. Business moves *fast* and we can’t wait for perfection. 
+    Business is often not research and can’t wait years. You’ve got weeks, so do everything you can do to make your best guess.
+
+2. Ship version 1. Then version 2. Keep iterating. You’ll learn as you go and the key 
+    part is to learn, learn, learn. Business success is an optimization problem, not a one hit wonder.
+
+3. You can’t learn it all. Learn as you go, pickup knowledge as it helps you complete projects 
+    and work. Don’t walk in on Day 1 with a toolbox of stuff, 99% of which you won’t use.
+
+4. Lots of data doesn’t mean there is lots of value. It may be true, but it is far from certain.
+
+5. Fundamental tools (SQL and Excel) won’t stop being important - they’ll only become 
+    more prominent and key for businesses as the number of people working with data increases.”
+
+# Notes What is Feature Engineering?
+
+- optimizing your features (to find more clear drivers of the target varibale)
+- combining two columns into one 
+- breaking one column into multiple columns 
+- making your features more useful 
+- figuring  out your null values
+- droppinh non-valuable features 
+
+-How do we know if a feature is valuable or not
+    - demain knowledge, background lnowledge
+    - statisitical tests
+    - visualizations
+    - trial and error
+    - experimemt w/models and feature selection 
+    - feature importance
+
+- ## new tools for FE toolbox
+    - Select K Best (sklearn tool based on stats)
+    - Recursive Feature Elimination(modeling based)
+    - Manual or Automateable methods
+        - forward elimination (start with one feature, then build up)
+        - backward eliminiation (start with all features, then pare down)
